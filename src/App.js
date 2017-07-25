@@ -13,7 +13,7 @@ class App extends Component {
     console.log('BodyIndex -- componentDidMount');
   }
   render() {
-    var component = <BodyIndex userId={1234} userName='Tiny'/>;
+    var component = <BodyIndex userId={134} userName='Tiny'/>;
     return (
       <div>
         <ComponentHeader />
