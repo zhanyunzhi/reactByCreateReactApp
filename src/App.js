@@ -7,7 +7,7 @@ import BodyIndex from './js/components/bodyIndex';
 import Form from './js/components/form';
 import Calculator from './js/components/calculator';
 //import { DatePicker } from 'antd';
-import { Button } from 'antd';
+import { Button,DatePicker } from 'antd';
 //import 'antd/dist/antd.css';
 
 class App extends Component {
@@ -22,6 +22,7 @@ class App extends Component {
     return (
       <div>
         <div className='App'>中间</div>
+        <DatePicker />
         <Button type="primary">Primary</Button>
         <Button>Default</Button>
         <Button type="dashed">Dashed</Button>
